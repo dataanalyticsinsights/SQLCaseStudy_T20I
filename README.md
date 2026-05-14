@@ -10,37 +10,45 @@ This project analyzes T20I cricket match results from 2024 using SQL. The goal w
 
 The objective of this project was to use SQL to answer cricket analytics questions such as:
 
-Which team won the most matches?
-How teams rank by total wins
-Which teams perform best while chasing
-Which team has the highest average winning margin
-Monthly match distribution
-Head-to-head records between selected teams
-Win percentage for each team
-Most successful team at each ground
-Dataset
+-Which team won the most matches?
+
+-How teams rank by total wins
+
+-Which teams perform best while chasing
+
+-Which team has the highest average winning margin
+
+-Monthly match distribution
+
+-Head-to-head records between selected teams
+
+-Win percentage for each team
+
+-Most successful team at each ground
+
+# Dataset
 
 The dataset contains T20I match information with the following columns:
 
-Team1
-Team2
-Winner
-Margin
-MatchDate
-Ground
-SQL Concepts Used
-SELECT statements
-WHERE filtering
-GROUP BY
-ORDER BY
-COUNT(), AVG()
-RANK() and DENSE_RANK()
-CASE statements
-CTEs
-Subqueries
-UNION ALL
-String functions: SUBSTRING(), LOCATE()
-Date conversion using STR_TO_DATE()
+Team1,
+Team2,
+Winner,
+Margin,
+MatchDate,
+Ground,
+SQL Concepts Used,
+SELECT statements,
+WHERE filtering,
+GROUP BY,
+ORDER BY,
+COUNT(), AVG(),
+RANK() and DENSE_RANK(),
+CASE statements,
+CTEs,
+Subqueries,
+UNION ALL,
+String functions: SUBSTRING(), LOCATE(),
+Date conversion using STR_TO_DATE(),
 Variables using SET
 
 # Analysis Performed
